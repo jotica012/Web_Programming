@@ -1,0 +1,21 @@
+.containerbtn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+   
+}
+
+.displaybtn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.text{
+    font-size: 30px;
+    text-align: center;
+}
+
