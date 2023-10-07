@@ -9,7 +9,8 @@ export const fetchFact = async () => {
         return res.json()
     })
     .then((data)=> {
-        return data
+        const fact = data.fact
+        return fact
     })
     .catch((error)=> {
         throw new Error(error)

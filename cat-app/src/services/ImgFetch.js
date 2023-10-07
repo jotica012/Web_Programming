@@ -5,7 +5,8 @@ export const fetchImg = async (words) => {
         if (!res.ok) {
             throw new Error ('Error bringing data from API')
         }
-        return res.url
+        const image = res.url
+        return image
     })
         .catch((error) => {
             throw new Error(error)

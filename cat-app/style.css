@@ -82,7 +82,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  color: #FFF9ED;
+  color: #74ffd7;
   border-color: #646cff;
 }
 button:focus,

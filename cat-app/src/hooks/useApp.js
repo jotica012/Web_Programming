@@ -35,7 +35,7 @@ export const useApp = () => {
 
     const fetchImage = () => {
         if (words) {
-            fetchImg({ words })
+            fetchImg( words )
             .then ((img)=> {
                 setImg(img)
             })

@@ -3,6 +3,6 @@ import './header.css'
 
 export function Header () {
     return (
-        <h1> Cat Facts App </h1>
+        <h1 className="header">  Kitty Facts </h1>
     )
 }
