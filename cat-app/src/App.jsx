@@ -7,7 +7,7 @@ export function App () {
     const { handleUserSubmit, fact, img, isLoading, error, words } = useApp()
     console.log(words)
 
-    if (isLoading) {
+   /* if (isLoading) {
         return (
             <>
                 <Header/>
@@ -19,7 +19,7 @@ export function App () {
         return (
             <p>(error)</p>
         )
-    }
+    }*/
 
     return (
         <>

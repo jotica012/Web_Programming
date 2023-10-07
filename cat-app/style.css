@@ -24,6 +24,10 @@ a:hover {
 }
 
 body {
+  background-image: url('./assets/fondo.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   margin: 0;
   display: flex;
   place-items: center;
@@ -71,11 +75,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fde9e9;
+  border-color: #1c1c1c;
+  color:#1c1c1c ;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
+  color: #FFF9ED;
   border-color: #646cff;
 }
 button:focus,
