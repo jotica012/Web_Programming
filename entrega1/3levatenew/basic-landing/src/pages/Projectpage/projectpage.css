@@ -1,0 +1,9 @@
+.img-container {
+    width: auto;
+    height: auto;
+  }
+  
+  .img-container img {
+    width: 35%;
+    height: 50%;
+  }

@@ -1,0 +1,28 @@
+.footer-container {
+    border-top: 2px solid white; 
+  }
+  
+  footer {
+    color: white; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  

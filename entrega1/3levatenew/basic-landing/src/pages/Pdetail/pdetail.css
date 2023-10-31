@@ -1,0 +1,39 @@
+#title{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 100px;
+}
+#protitle{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+#descrip{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#ptitle{
+
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .img-container {
+    width: auto;
+    height: auto;
+  }
+  
+  .img-container img {
+    width: 35%;
+    height: 50%;
+  }
+
+  .right-align {
+    text-align: right;
+  }
+  
+  .right-align img {
+    margin-right: 10px;
+  }
