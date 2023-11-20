@@ -12,6 +12,7 @@ export const DataModal = ({open, handleClose, pokemon, bg1, bg2}) => {
   ])
 
   const barWidth = (value) => {
+    console.log((value/255)*100);
     return (value/255)*100
   }
 
@@ -38,7 +39,8 @@ export const DataModal = ({open, handleClose, pokemon, bg1, bg2}) => {
               <div className="text-[80px] leading-none capitalize">
                 {pokemon?.name}
               </div>
-              <div></div>
+              <div className="w-1/2 border-b border-white pt-4">Weight: {pokemon?.weight}</div>
+              <div className="w-1/2 border-b border-white pt-4">Height: {pokemon?.height}</div>
             </div>
             <div className="w-1/3">
               <img src={pokemon?.sprites.other["official-artwork"].front_default} />
@@ -57,7 +59,7 @@ export const DataModal = ({open, handleClose, pokemon, bg1, bg2}) => {
               {pokemon && stats?.map((stat,i) => (
                 <div key={i} className="flex w-full gap-4">
                   <div className="w-full flex">
-                    <div className="bg-[#ffffffcc] h-5 rounded-l-lg" style={{width: barWidth(pokemon?.stats[i].base_stat)}}></div>
+                    <div className="bg-[#ffffffcc] h-5 rounded-l-lg" style={{width: `${barWidth(pokemon?.stats[i].base_stat)}%`}}></div>
                     <div className="w-full bg-[#00000022] h-5 rounded-r-lg"></div>
                   </div>
                   {pokemon.stats[i].base_stat}
